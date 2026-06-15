@@ -191,6 +191,21 @@ a:hover, a:focus, a:active {
   color: #596cd5;
 }
 
+#awards .resume-item {
+  border-bottom: 1px solid rgba(93, 67, 94, 0.16);
+  padding-bottom: 1.5rem;
+}
+
+#awards li:last-child .resume-item {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+#awards .resume-date .text-primary {
+  font-weight: 800;
+  white-space: nowrap;
+}
+
 .collaboration_list_column {
     float: left;
     width: 33.33%;
@@ -350,4 +365,3 @@ a:hover, a:focus, a:active {
   opacity: 0;
   display: none
 }
-
