@@ -712,7 +712,7 @@
 
                 <h4 class="mt-4">Content Overview</h4>
                 <ul class="mb-4">
-                    <li><strong>Datasets:</strong> Eight AI-ready physics datasets, ranging from <em>BASIC</em> (e.g., Majorana Demonstrator, CUORE) through <em>INTERMEDIATE</em> (e.g., EXO-200, NEXT) to <em>ADVANCED</em> (nEXO signal denoising and TIDMAD for dark matter discovery).</li>
+                    <li><strong>Datasets:</strong> Seven AI-ready physics datasets, ranging from <em>BASIC</em> (e.g., Majorana Demonstrator, CUORE) through <em>INTERMEDIATE</em> (e.g., EXO-200, NEXT) to <em>ADVANCED</em> (nEXO signal denoising and TIDMAD for dark matter discovery).</li>
                     <li><strong>Tutorials:</strong> Covers the essentials ("AI In a Nutshell"), coding cookbooks, using ChatGPT for ML, and two additional Machine Learning Course Series.</li>
                 </ul>
 
@@ -910,38 +910,8 @@
 
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-md-4 mb-4 mb-md-0" style="flex: 0 0 350px; max-width: 350px;">
-                <img src="img/dataset_project8.png" alt="Project 8 CRES spectrogram, segmentation label, and weight mask" class="img-fluid border rounded shadow-sm">
-                <div class="text-center mt-2 text-muted small font-italic">Fig 6. Spectrogram, Pixel Labels, and Weights</div>
-            </div>
-
-            <div class="resume-content">
-                <h4 class="mb-0">Project 8 CRES Simulation Dataset</h4>
-                <div class="subheading mb-3">
-                    <span class="badge badge-warning mr-2">INTERMEDIATE DATASET</span>
-                    Cyclotron Radiation Spectrograms
-                </div>
-
-                <p>
-                    About <strong>10,000 simulated Cyclotron Radiation Emission Spectroscopy (CRES) events</strong> from the <strong>Project 8 experiment</strong>, with electron energies near the tritium β-decay endpoint (~18.6 keV). Each event is a 1024 × 512 time–frequency spectrogram in which a β-decay electron appears as narrow, upward-sloping tracks, broken by frequency jumps from scattering. Track pixels make up well under 1% of each frame, so a per-pixel weight map is provided to handle the class imbalance.
-                </p>
-
-                <ul class="fa-ul mb-3">
-                    <li><i class="fa-li fas fa-chart-bar"></i><strong>Input Data:</strong> 2D time–frequency spectrogram, weight map, eventId, energy, pitch.</li>
-                    <li><i class="fa-li fas fa-tags"></i><strong>Labels:</strong> 1 per-pixel binary segmentation mask (background: 0, electron track: 1). 90% of events are labeled for training; 10% are reserved for testing.</li>
-                    <li><i class="fa-li fas fa-tasks"></i><strong>Goal:</strong> Segment the faint electron tracks out of the noisy spectrogram.</li>
-                    <li><i class="fa-li fas fa-file-code"></i><strong>Format:</strong> HDF5.</li>
-                </ul>
-
-                <div class="alert alert-secondary p-2 small">
-                    <i class="fa fa-server mr-1"></i> <strong>Access:</strong> The dataset and its description are hosted on NERSC (p8 directory); there is no public download link yet.
-                </div>
-            </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-md-4 mb-4 mb-md-0" style="flex: 0 0 350px; max-width: 350px;">
                 <img src="img/dataset_nexo.png" alt="Simulated nEXO charge waveforms on 32 tile channels" class="img-fluid border rounded shadow-sm">
-                <div class="text-center mt-2 text-muted small font-italic">Fig 7. Noisy Charge Waveforms on One Tile</div>
+                <div class="text-center mt-2 text-muted small font-italic">Fig 6. Noisy Charge Waveforms on One Tile</div>
             </div>
 
             <div class="resume-content">
@@ -976,7 +946,7 @@
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-md-4 mb-4 mb-md-0" style="flex: 0 0 350px; max-width: 350px;">
                 <img src="img/tidmad_waveform.jpg" alt="TIDMAD Denoising Example" class="img-fluid border rounded shadow-sm">
-                <div class="text-center mt-2 text-muted small font-italic">Fig 8. Noisy Input vs Ground Truth</div>
+                <div class="text-center mt-2 text-muted small font-italic">Fig 7. Noisy Input vs Ground Truth</div>
             </div>
 
             <div class="resume-content">
